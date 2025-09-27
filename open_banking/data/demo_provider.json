@@ -1,0 +1,87 @@
+{
+  "accounts": [
+    {
+      "id": "acc-001",
+      "name": "Everyday Checking",
+      "type": "checking",
+      "currency": "USD",
+      "balance": 1520.75,
+      "transactions": [
+        {
+          "id": "txn-001",
+          "description": "Salary",
+          "amount": 2500.00,
+          "currency": "USD",
+          "booking_date": "2024-03-28",
+          "category": "income"
+        },
+        {
+          "id": "txn-002",
+          "description": "Groceries",
+          "amount": -82.14,
+          "currency": "USD",
+          "booking_date": "2024-03-26",
+          "category": "food"
+        },
+        {
+          "id": "txn-003",
+          "description": "Rent",
+          "amount": -1200.00,
+          "currency": "USD",
+          "booking_date": "2024-03-25",
+          "category": "housing"
+        }
+      ]
+    },
+    {
+      "id": "acc-002",
+      "name": "Travel Savings",
+      "type": "savings",
+      "currency": "USD",
+      "balance": 3240.10,
+      "transactions": [
+        {
+          "id": "txn-101",
+          "description": "Interest Payment",
+          "amount": 5.12,
+          "currency": "USD",
+          "booking_date": "2024-03-30",
+          "category": "interest"
+        },
+        {
+          "id": "txn-102",
+          "description": "Flight Booking",
+          "amount": -450.00,
+          "currency": "USD",
+          "booking_date": "2024-03-15",
+          "category": "travel"
+        }
+      ]
+    },
+    {
+      "id": "acc-003",
+      "name": "Shared Expenses",
+      "type": "joint",
+      "currency": "EUR",
+      "balance": 980.00,
+      "transactions": [
+        {
+          "id": "txn-201",
+          "description": "Utility Bill",
+          "amount": -120.50,
+          "currency": "EUR",
+          "booking_date": "2024-03-20",
+          "category": "utilities"
+        },
+        {
+          "id": "txn-202",
+          "description": "Dinner",
+          "amount": -64.80,
+          "currency": "EUR",
+          "booking_date": "2024-03-18",
+          "category": "food"
+        }
+      ]
+    }
+  ]
+}
